@@ -20,7 +20,7 @@
 
             return f;
         }
-        static bool Fattoriale2(int n)
+        static bool VerificaPari(int n)
         {
             if (n % 2 == 0)
             {
@@ -45,7 +45,7 @@
 
             for (int i = 1; i <= 10; i++) {
 
-                if ( Fattoriale2(i) == true ) {
+                if ( VerificaPari(i) == true ) {
 
                 s = s + Fattoriale(i);
 
